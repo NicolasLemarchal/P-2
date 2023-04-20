@@ -13,6 +13,180 @@
     color: var(--main-color);
 }
 
+header {
+    /* Header */
+    width: 1440px;
+    height: 79px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+header div {
+    /* Logo/Reservia */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 121.09px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    /* Booki */
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 30px;
+    top: 30px;
+}
+
+nav {
+    /* Menu */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px;
+    gap: 68px;
+    position: absolute;
+    width: 328.6px;
+    height: 35px;
+    right: 0.31px;
+    top: 0px;
+}
+
+nav ul {
+    /* Buttons */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 68px;
+    width: 244px;
+    height: 35px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    list-style-type: none;
+}
+
+.btn-hebergements {
+    /* Btn Hébergement */
+    width: 113px;
+    height: 35px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-hebergements a {
+    /* Hébergements */
+    position: absolute;
+    width: 112px;
+    height: 19px;
+    left: 0px;
+    top: 16px;
+    /* Nav/Standard */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    /* Blue */
+    color: #0065FC;
+}
+
+.btn-activites {
+    /* Btn Activités */
+    width: 63px;
+    height: 35px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-activites a {
+    /* Activités */
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 181px;
+    top: 16px;
+    /* Nav/Standard */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.bg-bar {
+    /* Bg bar */
+    position: absolute;
+    width: 113px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+    /* Transparent */
+}
+
+.bg-bar:hover {
+    /* Blue bar */
+    position: absolute;
+    width: 113px;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    /* Blue */
+    background: #0065FC;
+}
+
+.rectangle-26 {
+    /* Rectangle 26 */
+    position: absolute;
+    width: 63px;
+    height: 35px;
+    left: 181px;
+    top: 0px;
+    /* Transparent */
+}
+
+.rectangle-26:hover {
+    /* Rectangle 25 */
+    position: absolute;
+    width: 63px;
+    height: 2px;
+    left: 181px;
+    top: 0px;
+    /* Blue */
+    background: #0065FC;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
     display: flex;
     justify-content: center;
