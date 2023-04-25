@@ -83,23 +83,18 @@ nav ul {
     list-style-type: none;
 }
 
+nav li:hover {
+    border-top: solid 2px #0065FC;
+    padding-top: 14px;
+}
+
 .btn-hebergements {
     /* Btn Hébergement */
     width: 113px;
     height: 35px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .btn-hebergements a {
-    /* Hébergements */
-    position: absolute;
-    width: 112px;
-    height: 19px;
-    left: 0px;
-    top: 16px;
     /* Nav/Standard */
     font-family: 'Raleway';
     font-style: normal;
@@ -116,19 +111,9 @@ nav ul {
     /* Btn Activités */
     width: 63px;
     height: 35px;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .btn-activites a {
-    /* Activités */
-    position: absolute;
-    width: 63px;
-    height: 19px;
-    left: 181px;
-    top: 16px;
     /* Nav/Standard */
     font-family: 'Raleway';
     font-style: normal;
@@ -138,48 +123,6 @@ nav ul {
     /* identical to box height */
     text-align: center;
     color: #000000;
-}
-
-.bg-bar {
-    /* Bg bar */
-    position: absolute;
-    width: 113px;
-    height: 35px;
-    left: 0px;
-    top: 0px;
-    /* Transparent */
-}
-
-.bg-bar:hover {
-    /* Blue bar */
-    position: absolute;
-    width: 113px;
-    height: 2px;
-    left: 0px;
-    top: 0px;
-    /* Blue */
-    background: #0065FC;
-}
-
-.rectangle-26 {
-    /* Rectangle 26 */
-    position: absolute;
-    width: 63px;
-    height: 35px;
-    left: 181px;
-    top: 0px;
-    /* Transparent */
-}
-
-.rectangle-26:hover {
-    /* Rectangle 25 */
-    position: absolute;
-    width: 63px;
-    height: 2px;
-    left: 181px;
-    top: 0px;
-    /* Blue */
-    background: #0065FC;
 }
 
 nav ul li a {
@@ -601,7 +544,7 @@ input::placeholder {
     font-weight: 700;
 }
 
-.neutralStar {
+.neutral-star {
     color: var(--main-bg-color)
 }
 
@@ -786,6 +729,33 @@ input::placeholder {
 .frame-14 .card .card-content .card-title {
     padding: 20px 19px;
     gap: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* Grey */
+    background: #F2F2F2;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 15px;
+
+    width: 33%;
+}
+
+footer div h3 {
+    margin: 0px;
+}
+
+footer p {
+    margin: 0px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
