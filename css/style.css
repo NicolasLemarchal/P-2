@@ -813,8 +813,8 @@ footer p {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .main-container {
+        width: calc(100% - 40px);
         padding: 0px 20px;
-        padding-right: 40px;
     }
 
     header {
@@ -833,13 +833,13 @@ footer p {
     }
 
     header nav {
-        width: calc(100%);
+        width: calc(100% + 40px);
         position: relative;
         padding: 0px;
     }
 
     header nav ul {
-        width: calc(100% + 20px);
+        width: calc(100% + 40px);
         margin: 0px;
         gap: 0px;
     }
@@ -880,7 +880,7 @@ footer p {
     }
 
     .search-bar {
-        width: 100%;
+        width: calc(100% + 20px);
     }
 
     .search-bar button {
@@ -905,7 +905,7 @@ footer p {
         display: flex;
         color: #FFFFFF;
         position: absolute;
-        right: 35.5px;
+        right: 36.5px;
         padding-top: 16.5px;
     }
 
@@ -950,8 +950,8 @@ footer p {
     }
 
     .hebergements-and-populaires {
-        width: calc(100% + 60px);
-        position: relative; left: -20px;
+        width: calc(100% + 80px);
+        position: relative; left: -40px;
     }
 
     .hebergements-and-populaires section {
@@ -961,7 +961,7 @@ footer p {
     .populaires {
         order: 0;
         margin-top: 0px;
-        width: calc(100%);
+        width: 100%;
         height: 569px;
         padding: 30px 20px;
         margin-top: 30px;
@@ -985,7 +985,7 @@ footer p {
 
     .hebergements {
         order: 1;
-        width: calc(100%);
+        width: 100%;
         background-color: #FFFFFF;
         padding: 20px;
         margin-bottom: 35px;
@@ -1009,7 +1009,7 @@ footer p {
     }
 
     .section-activites {
-        width: calc(100%);
+        width: calc(100% - 20px);
         position: relative; left: -20px;
     }
 
@@ -1035,8 +1035,8 @@ footer p {
         flex-direction: column;
         padding: 30px;
         gap: 50px;
-        width: calc(100%);
-        position: relative; left: -20px;
+        width: calc(100% + 20px);
+        position: relative; left: -40px;
         height: 401px;
     }
 
